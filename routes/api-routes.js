@@ -29,3 +29,13 @@ Router.put("/api/workouts/:id", (req, res) => {
   });
 });
 
+
+Router.post("/api/workouts", ({ body }, res) => {
+  Workout.create(body)
+    .then(dbWorkout => {
+      res.json(dbWorkout);
+    })
+    .catch(err => {
+      res.json(err);
+    });
+});
