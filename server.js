@@ -13,11 +13,11 @@ const app = express();
 
 app.use(logger("dev"));
 
-app.use(htmlRoutes)
-app.use(apiRoutes)
-
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
+
+app.use(htmlRoutes)
+app.use(apiRoutes)
 
 app.use(express.static("public"));
 
