@@ -23,9 +23,13 @@
   
   ![homepage](public/images/fitness-tracker-homepage.jpg)
 
-  Once they arrive on the home page, they choose to continue an exercise or add a new workout. They will then need to enter the exercise details for it to be updated in the database. If they navigate to the stats page by clicking on the Dashboard link in the top right, the user will see grids that visualize the data collected. 
-
+  Once they arrive on the home page, they choose to continue an exercise or add a new workout. They will then need to enter the exercise details for it to be updated in the database. 
+  
   ![data-input](public/images/fitness-tracker-data-input.jpg)
+  
+  If they navigate to the stats page by clicking on the Dashboard link in the top right, the user will see grids that visualize the data collected. 
+
+  ![stats](public/images/fitness-tracker-charts.jpg)
 
 
   # Questions 
