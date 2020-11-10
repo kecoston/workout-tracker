@@ -38,5 +38,9 @@
   #Licensing
 
   Workout Tracker  Copyright (C) 2020 kecoston
+  
+  # Important Links 
+  
+  Heroku Deployed App: https://guarded-thicket-11070.herokuapp.com/
 
   
